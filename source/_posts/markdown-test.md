@@ -16,3 +16,9 @@ private int count = 0;
 var name = "javascript";
 ```
 
+#### 超链接
+I usually search answer from [Baidu][1] , and [SegmentFault][2]
+
+[1]: https://www.baidu.com "Baidu"
+[2]: https://www.segmentfault.com "SegmentFault"
+
