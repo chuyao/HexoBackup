@@ -12,7 +12,7 @@ categories: Tech
 这是传说中的相对路径方式
 {% asset_img test.jpg This is an example image %}
 下面是markdown方式
-![](/images/test/test.jpg "this is a test image")
+![this is a test image](testTextWithImage/test.jpg "this is a test image")
 好了，真的都有看到吗？
 再来一张大图看看![](/images/banner_.jpg "a big image")Let's give the situation a little context: 
 
