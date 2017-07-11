@@ -3,7 +3,7 @@ title: 我眼中的面试 (转)
 date: 2017-06-27 15:19:38
 tags:
     - Tech
-catgories: 
+categories: 
     - Tech
 ---
 转载自SegmentFault [我自己的文章][1]
