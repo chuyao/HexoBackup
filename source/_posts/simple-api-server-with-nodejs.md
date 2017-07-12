@@ -1,5 +1,5 @@
 ---
-title: 一个简单的Node.js服务器
+title: 一个简单的Node.js接口服务器
 date: 2017-07-11 14:02:57
 tags:
     - Tech
@@ -77,7 +77,7 @@ app.listen(3000, function(){
 });
 ```
 
-把需要测试升级的apk文件放到和index.js同级目录下，最后一步，执行
+保存，并把需要测试升级的apk文件(文件名称对应为new-release.apk)放到和index.js同级目录下，最后一步，执行
 ``` bash
 $ node index.js
 ```
