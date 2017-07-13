@@ -59,20 +59,20 @@ $ npm install express --save
 
 新建一个文件index.js，用记事本或其它文本编辑器打开，开始写我们的程序
 ``` js
-var express = require('express');
-var app = express();
+var express = require('express'); //引入express模块
+var app = express();  //express对象
 
-const verStr = {versionName : '2.0.0', versionCode : 200};
+const verStr = {versionName : '2.0.0', versionCode : 200};  //版本检查返回的数据，假数据，自行修改
 
-app.get('/checkUpdate', function(req, res){
+app.get('/checkUpdate', function(req, res){ //版本检查接口
   res.send(JSON.stringify(verStr));
 });
 
-app.get('/download', function(req, res){
+app.get('/download', function(req, res){  //新版本文件下载接口
   res.download('./new-release.apk');
 });
 
-app.listen(3000, function(){
+app.listen(3000, function(){  //服务端口监听
   console.log('server now listening at port 3000');
 });
 ```
