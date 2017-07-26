@@ -6,3 +6,4 @@ tags:
     - Life
 categories: Tech
 ---
+&#8195;&#8195;四个月前的今天，我悄悄离开了北京
