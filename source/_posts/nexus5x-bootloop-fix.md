@@ -6,7 +6,7 @@ tags:
     - Android
     - Tech
 ---
-##### <center>*原文[《Nexus 5X Bootloop Fix Helps you to Finally Boot the Phone》][1]，源自 [xdadevelopers.com][2]网站，原文作者：[Doug Lynch][3]*</center>
+##### <center>*原文[《Nexus 5X Bootloop Fix Helps you to Finally Boot the Phone》][1]，原文作者：[Doug Lynch][3]，源自 [xda-developers.com][2]网站*</center>
 &#8195;&#8195;你的LG/Google [Nexus 5X][4]手机停止启动了吗？或者是陷入到了无休止的启动循环里了？
 &#8195;&#8195;这种现象我们常称之为“循环启动”，起因则有很多种。大多数时候，可以通过刷入原厂固件或者恢复出厂设置来解决循环启动问题，但当遇到硬件循环启动时，通常我们并不能采取什么有效的办法，除了退货。如果你的Google Nexus 5X手机无法启动，而你尝试修复但并没有什么卵用，那么你要相信，你不是唯一一个碰到这种情况的人。Nexus 5X循环启动问题在社区里正不断被诟病，但鲜有新的解决方案。
 ### Nexus 5X循环启动解决 - 背景
@@ -17,9 +17,18 @@ tags:
 ### 教程
 ###### 要求
 * *设备在循环启动问题发生前，bootloader要处于"可解锁"状态。在这之前，如果你能启动设备，去到开发者选项里，点击“允许OEM解锁”，就能达到bootloader解锁的状态。*
-1. 下载最新的[ADB和Fastboot文件][10]，将它们解压到你电脑上容易访问到的位置。
+1. 下载最新的[ADB和Fastboot][10]，将它们解压到你电脑上容易访问到的位置。
 2. 下载安装[谷歌USB驱动][11] (针对windows平台)
-3. 下载[N2G47Z_4Cores.img]文件，保存到与ADB&Fastboot相同的目录下。
+3. 下载[N2G47Z_4Cores.img][12]文件，并保存到与ADB&Fastboot相同的目录下。
+ * 1：如果你想在Nexus 5X上使用TWRP recovery，则需要一个TWRP的修改版本。下载[TWRP3_1_1_5X.img][13]，并保存到与ADB&Fastboot相同的目录下。
+ * 2：如果你想加速Nexus 5X，则可以刷入一个经过XDA认证的[flar2][14]的修改版本基带内核。下载[EX4_10_5X.zip][15]文件到Nexus 5X上默认的下载目录。
+4. 将Nexus 5X通过USB线与电脑连接。
+5. 启动电脑命令行工具并定位到之前保存ADB&Fastboot的目录下，对于Windows用户，只需要资源管理器进入到这个目录下，点击鼠标右键，选择"open commad promote here"，即，“在这里打开命令行”即可，Windows10用户可以选择PowerShell替代。![](nexus5x-bootloop-fix/1.png)
+6. 启动Nexus 5X并进入到Fastboot模式(同时按住电源键及音量下键)。
+7. 在命令行执行命令: *fastboot devices*![](nexus5x-bootloop-fix/2.png)
+8. 如果你能看到显示的设备序列号，则可以继续，如果没有，则可能因为某些原因，USB驱动没有安装好，需要检查。
+9. 
+
 
 
 
@@ -36,3 +45,6 @@ tags:
 [10]: https://www.xda-developers.com/google-releases-separate-adb-and-fastboot-binary-downloads/
 [11]: https://developer.android.com/studio/run/win-usb.html
 [12]: https://www.dropbox.com/s/tm7qt98r6d7q2a6/N2G47Z_4Cores.img?dl=0
+[13]: https://www.dropbox.com/s/levla3p5npe24pw/TWRP3_1_1_5X.img?dl=0
+[14]: https://forum.xda-developers.com/member.php?u=4684315
+[15]: https://www.dropbox.com/s/172ey8346e5du6l/EX4_10_5X.zip?dl=0
