@@ -16,7 +16,10 @@ tags:
 &#8195;&#8195;一如既往，你可以使这个方法多样化。
 ### 教程
 ###### 要求
-* 设备在循环启动问题发生前，bootloader要处于"可解锁"状态。在这之前，如果你能启动设备，去到开发者选项里，点击“允许OEM解锁”，就能达到bootloader解锁的状态。
+* *设备在循环启动问题发生前，bootloader要处于"可解锁"状态。在这之前，如果你能启动设备，去到开发者选项里，点击“允许OEM解锁”，就能达到bootloader解锁的状态。*
+1. 下载最新的[ADB和Fastboot文件][10]，将它们解压到你电脑上容易访问到的位置。
+2. 下载安装[谷歌USB驱动][11] (针对windows平台)
+3. 下载[N2G47Z_4Cores.img]文件，保存到与ADB&Fastboot相同的目录下。
 
 
 
@@ -30,3 +33,6 @@ tags:
 [7]: https://forum.xda-developers.com/nexus-5x
 [8]: https://www.xda-developers.com/opinion-the-810-held-back-a-generation-with-deliberate-apologism-damage-control/
 [9]: https://www.xda-developers.com/xda-external-link/lg-admits-g4-bootloop-problem-is-a-hardware-fault-will-repair-affected-devices/
+[10]: https://www.xda-developers.com/google-releases-separate-adb-and-fastboot-binary-downloads/
+[11]: https://developer.android.com/studio/run/win-usb.html
+[12]: https://www.dropbox.com/s/tm7qt98r6d7q2a6/N2G47Z_4Cores.img?dl=0
