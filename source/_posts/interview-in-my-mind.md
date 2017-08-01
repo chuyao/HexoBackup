@@ -4,8 +4,7 @@ date: 2017-06-27 15:19:38
 tags:
     - Interview
     - Android
-categories: 
-    - Tech
+categories: Tech
 ---
 转载自SegmentFault [我自己的文章][1]
 
