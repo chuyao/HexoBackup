@@ -7,7 +7,7 @@ tags:
     - Nexus 5X
 categories: Tech
 ---
-##### <center>*原文[《Nexus 5X Bootloop Fix Helps you to Finally Boot the Phone》][1]，原文作者：[Doug Lynch][3]，源自 [xda-developers.com][2]网站*</center>
+##### <center>*原文[《Nexus 5X Bootloop Fix Helps you to Finally Boot the Phone》][1]，原文作者：[Doug Lynch][2]，源自 [xda-developers.com][3]网站*</center>
 &#8195;&#8195;你的LG/Google [Nexus 5X][4]手机停止启动了吗？或者是陷入到了无休止的启动循环里了？
 &#8195;&#8195;这种现象我们常称之为“循环启动”，起因则有很多种。大多数时候，可以通过刷入原厂固件或者恢复出厂设置来解决循环启动问题，但当遇到硬件循环启动时，通常我们并不能采取什么有效的办法，除了退货。如果你的Google Nexus 5X手机无法启动，而你尝试修复但并没有什么卵用，那么你要相信，你不是唯一一个碰到这种情况的人。Nexus 5X循环启动问题在社区里正不断被诟病，但鲜有新的解决方案。
 ### Nexus 5X循环启动解决 - 背景
@@ -46,8 +46,8 @@ categories: Tech
 
 
 [1]: https://www.xda-developers.com/nexus-5x-bootloop-fix-boot-phone/
-[2]: https://www.xda-developers.com/
-[3]: https://www.xda-developers.com/author/doug-lynch/
+[2]: https://www.xda-developers.com/author/doug-lynch/
+[3]: https://www.xda-developers.com/
 [4]: https://forum.xda-developers.com/nexus-5x
 [5]: https://forum.xda-developers.com/g4
 [6]: https://www.xda-developers.com/nexus-6p-bootloop-fix/
