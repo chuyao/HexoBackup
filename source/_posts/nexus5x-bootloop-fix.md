@@ -25,18 +25,18 @@ categories: Tech
  * 可选项2：如果想要加快Nexus 5X的运行速度，则可以刷入一个经过XDA认证的[flar2][14]的修改版本基带内核。下载[EX4_10_5X.zip][15]文件到Nexus 5X上默认的下载目录。
 4. 将Nexus 5X通过USB线与电脑连接。
 5. 启动电脑命令行工具并定位到之前保存ADB&Fastboot的目录下，对于Windows用户，只需要资源管理器进入到这个目录下，点击鼠标右键，选择"open commad promote here"，即，“在这里打开命令行”即可，Windows10用户可以选择PowerShell替代。
-![](nexus5x-bootloop-fix/1.png)
+![](1.png)
 6. 启动Nexus 5X并进入到Fastboot模式(同时按住电源键及音量下键)。
 7. 在命令行执行命令: *fastboot devices*
-![](nexus5x-bootloop-fix/2.png)
+![](2.png)
 8. 如果能看到显示的设备序列号，则可以继续，如果没有，则可能是因为某些原因，USB驱动没有安装好，需要检查。
 9. 如果bootloader未解锁而之前已经在手机开发者选项里进行了OEM解锁，则现在可以解锁bootloader了，命令行输入: *fastboot flashing unlock* 然后，跟着命令行提示进行bootloader解锁，需要注意的是，这个操作会清除手机上的所有数据。
 10. 接着进行替换boot镜像，输入命令: *fastboot flash boot N2G47Z_4Cores.img*
-![](nexus5x-bootloop-fix/3.png)
+![](3.png)
  * 如果想要刷入TWRP，使用命令: *fastboot flash recovery TWRP3_1_1_5X.img*
- ![](nexus5x-bootloop-fix/4.png)
+ ![](4.png)
 11. 输入命令: *fastboot reboot*来重启手机
-![](nexus5x-bootloop-fix/5.png)
+![](5.png)
 12. 几分钟后(可能更长)，应该可以看到开机动画在屏幕上闪动，那么恭喜你，你拯救了你的爱机！
 13. 可选项: 如果想要改进手机的表现力，可以遵照以下步骤来安装TWRP，拷贝之前下载的基带内核文件到手机内置存储器上，启动手机并进入到TWRP，并刷入内核。这时你甚至可以选择通过超频来加快手机的运行速度。
 
