@@ -32,8 +32,11 @@ categories: Tech
 
 &#8195;&#8195;现在，像以往一样运行你的应用。
 ![输出HelloKotlin](5.png)
+&#8195;&#8195;
+&#8195;&#8195;
+&#8195;&#8195;
 
-### 原文出自[Chapter 1 : Configuring Android Studio with Kotlin][2]
+### <center>*原文出自 [Chapter 1 : Configuring Android Studio with Kotlin][2]*</center>
 
 [1]: https://kotlinlang.org/api/latest/jvm/stdlib/
 [2]: http://chintanrathod.com/chapter-1-configuring-android-studio-kotlin/
