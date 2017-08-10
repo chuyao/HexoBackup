@@ -1,5 +1,5 @@
 ---
-title: Kotlin基础教程第一章：在Android Studio上配置Kotlin开发环境
+title: (译) Kotlin基础教程第一章：在Android Studio上配置Kotlin开发环境
 date: 2017-08-10 15:36:15
 tags: 
     - Kotlin
@@ -16,7 +16,7 @@ categories: Tech
 
 &#8195;&#8195;先让我们看一下新建工程的*gradle*文件。
 ![工程根目录build.gradle](2.png)
-1. Kotlin依赖版本声明。(这篇文章编写时，版本号为1.1.3-2)
+1. Kotlin依赖版本声明。(这篇文章编写时，版本号为1.1.3-2)<!-- more -->
 2. Kotlin依赖插件声明。
 
 &#8195;&#8195;接着来看主模块的*gradle*文件。
