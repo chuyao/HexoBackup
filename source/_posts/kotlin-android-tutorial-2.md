@@ -18,10 +18,33 @@ categories: Tech
 &#8195;&#8195;是的，这是真的，这是Kotlin非常酷炫的地方，而原因，“安东尼奥.雷瓦”已经说过了。让我们来定义第一个变量。
 #### 定义第一个变量
 &#8195;&#8195;你可以使用*var*或*val*关键字简单的定义变量并指派给对象。
-``` javascript
+``` kotlin
 var <object_name> : <Type> = <Value>
 val <object_name> : <Type> = <Value>
 ```
+##### 例如
+``` kotlin
+var i : Int = 1
+var d : Double = 1.1
+var f : Float = 1.1F
+var l : Long = 1L
+var c : Char = 'c'
+var s : String = "Chintan"
+```
+上边的例子将立即对对象进行赋值，通过例子，你可有什么发现？
+没有？
+分号！
+![Yeah!](2.gif)
+你可以更简单一点，就像下边这样
+``` kotlin
+var i = 1
+var d = 1.1
+var f = 1.1F
+var l = 1L
+var c = 'c'
+var s = "Chintan"
+```
+通过赋值，变量
 
 [1]: https://chuyao.github.io/2017/08/10/kotlin-android-tutorial-1/
 [2]: https://antonioleiva.com/about/
