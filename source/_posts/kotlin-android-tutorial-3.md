@@ -39,7 +39,8 @@ val test = Test(10)
 println(test + 10)  //输出 -> Test(count=20)
 println(test * 2)   //输出 -> Test(count=12)
 ```
-<!-- more -->阴吹斯汀！
+<!-- more -->
+阴吹斯汀！
 ![Na ni~](1.gif)
 #### 一元运算
 &#8195;&#8195;在Java或其它语言中，你一定很熟悉一元运算符。在Kotlin中，只要你愿意，你也可以在自定义类中使用和重载它们。
@@ -49,6 +50,7 @@ println(test * 2)   //输出 -> Test(count=12)
 | +a   | a.unaryPlus()          |
 | -a   | a.unaryMinus()         |
 | !a   | a.not()                |
+
 ``` kotlin
 data class Test(val count: Int)
 
