@@ -1,5 +1,5 @@
 ---
-title: (译) Kotlin变量 (Android)
+title: (译) Kotlin基础教程第二章：Kotlin变量 (Android)
 date: 2017-08-10 17:31:07
 tags: 
     - Kotlin

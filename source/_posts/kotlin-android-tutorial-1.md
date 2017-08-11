@@ -1,5 +1,5 @@
 ---
-title: (译) Kotlin基础教程第一章：在Android Studio上配置Kotlin开发环境
+title: (译) Kotlin基础教程第一章：在Android Studio中配置Kotlin环境
 date: 2017-08-10 15:36:15
 tags: 
     - Kotlin
@@ -27,7 +27,7 @@ categories: Tech
 &#8195;&#8195;你应该已经注意到，当Kotlin类创建时，类文件的后缀名默认已经变成“.kt”。
 ![MainActivity.kt](4.png)
 1. 所有的实例对象以冒号“:”和类的默认构造器形式展现。
-2. 所有的重载方法以*override*关键字开头。
+2. 所有的重写方法以*override*关键字开头。
 3. 你需要在实例对象后面加一个问号“*?*”来声明它是一个对象。
 
 &#8195;&#8195;现在，像以往一样运行你的应用。
