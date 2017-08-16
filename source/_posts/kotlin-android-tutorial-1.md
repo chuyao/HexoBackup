@@ -9,7 +9,7 @@ categories: Tech
 ---
 &#8195;&#8195;如果你之前了解过Kotlin，认为它是一门很强大的语言，那么你应该尝试去学习和使用它，这就是你来到这里的原因。这篇文章，我们将学习如何配置Android Studio下的Kotlin开发环境。
 &#8195;&#8195;启动Android Studio，新建一个项目工程，如下图如示
-![新工程 + Kotlin支持](1.png)
+![新工程 + Kotlin支持(需要手动勾选)](1.png)
 &#8195;&#8195;按照下一步提示创建工程并等待创建过程完成。
 
 &#8195;&#8195;*对于Android Studio 2.x版本，你需要预先安装Kotlin插件，安装步骤为“File -> Settings -> Plugin”，在弹出的对话框搜索栏内搜索“Kotlin”，安装并重启你的Android Studio。*
