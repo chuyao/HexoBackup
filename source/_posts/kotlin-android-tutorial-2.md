@@ -4,7 +4,6 @@ date: 2017-08-13 17:31:07
 tags: 
     - Kotlin
     - Android
-    - Translation
 categories: Tech
 ---
 &#8195;&#8195;这篇文章，你将学习到Kotlin变量的相关知识。

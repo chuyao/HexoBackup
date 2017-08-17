@@ -4,7 +4,6 @@ date: 2017-08-15 21:55:47
 tags: 
     - Kotlin
     - Android
-    - Translation
 categories: Tech
 ---
 &#8195;&#8195;在这篇文章里，你将学习到运算符知识及它们在Kotlin中的运用。
