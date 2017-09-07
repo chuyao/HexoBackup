@@ -23,7 +23,7 @@ $ cat data_en.txt
 �W��
 ����	u+�E�=J�w��	���� �n(W˯f�g'n�<grHY����w�=jI�)M�.i
 ```
-&#8195;&#8195;我当然看不懂了！
+&#8195;&#8195;我当然看不懂了！<!-- more -->
 &#8195;&#8195;同样的加密操作我们再来一次，看看两次加密得到的密文是否一样。
 ``` bash
 $ openssl rsautl -encrypt -in data.txt -inkey public.key -pubin -out data_en.txt
