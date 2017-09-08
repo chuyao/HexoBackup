@@ -4,7 +4,6 @@ tags: OpenSSL
 categories: Tech
 date: 2017-09-07 16:44:07
 ---
-
 #### 一、概述
 &#8195;&#8195;在上一篇教程中，讲解了如何生成RSA密钥，提到了密钥长度设定对加密过程的影响问题。本篇文章，让我们来使用RSA密钥对数据进行加解密，并验证一下密钥长度对加密的影响，依赖于OpenSSL强大而丰富的命令行命令，可以简洁清晰的实现这两个目标。为了方便演示讲解，本文中使用的密钥是默认的512比特长度。
 #### 二、公钥加密
@@ -16,14 +15,14 @@ $ openssl rsautl -encrypt -in data.txt -inkey public.key -pubin -out data_en.txt
 ```
 - 意思是：RSA工具(rsautl)加密操作(-encrypt)，导入(-in)明文数据data.txt，导入密钥(-inkey)，声明密钥是公钥(-pubin)，加密后密文输出保存到(-out)data_en.txt文件中。
 - 加密时，OpenSSL会默认导入的密钥是私钥，所以，公钥加密需要加上 *-pubin* 参数以表明加密操作是以公钥进行，私钥加密时因为是默认私钥，所以不需要加相关参数。一定要确认使用的是哪个密钥加密，如果使用公钥而又不加 *-pubin* 参数，命令行会报错，加密也会失败。
-
+<!-- more -->
 &#8195;&#8195;命令行无错误提示，即表明加密成功，来看看密文文件 *data_en.txt* 的内容：
 ``` bash
 $ cat data_en.txt
 �W��
 ����	u+�E�=J�w��	���� �n(W˯f�g'n�<grHY����w�=jI�)M�.i
 ```
-&#8195;&#8195;我当然看不懂了！<!-- more -->
+&#8195;&#8195;我当然看不懂了！
 &#8195;&#8195;同样的加密操作我们再来一次，看看两次加密得到的密文是否一样。
 ``` bash
 $ openssl rsautl -encrypt -in data.txt -inkey public.key -pubin -out data_en.txt
