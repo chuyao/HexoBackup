@@ -4,7 +4,7 @@ date: 2017-09-07 01:15:21
 tags:
     - OpenSSL
 categories:
-    - Tech
+    - IT
 ---
 
 #### 一、概述

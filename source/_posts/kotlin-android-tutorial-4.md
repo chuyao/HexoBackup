@@ -5,7 +5,7 @@ tags:
     - Kotlin
     - Android
 categories:
-    - Tech
+    - IT
 ---
 
 &#8195;&#8195;本篇文章，让我们来学习Kotlin类及其属性。

@@ -6,7 +6,7 @@ tags:
     - Android
     - Nexus 5X
 categories:
-    - Tech
+    - IT
 ---
 ##### <center>*原文[《Nexus 5X Bootloop Fix Helps you to Finally Boot the Phone》][1]，原文作者：[Doug Lynch][2]，源自 [xda-developers.com][3]网站*</center>
 &#8195;&#8195;你的LG/Google [Nexus 5X][4]手机停止启动了吗？或者是陷入到了无休止的启动循环里了？
