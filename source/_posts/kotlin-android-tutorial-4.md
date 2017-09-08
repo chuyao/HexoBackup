@@ -4,7 +4,8 @@ date: 2017-08-18 15:54:36
 tags: 
     - Kotlin
     - Android
-categories: Tech
+categories:
+    - Tech
 ---
 
 &#8195;&#8195;本篇文章，让我们来学习Kotlin类及其属性。

@@ -4,7 +4,8 @@ date: 2017-08-13 17:31:07
 tags: 
     - Kotlin
     - Android
-categories: Tech
+categories:
+    - Tech
 ---
 &#8195;&#8195;这篇文章，你将学习到Kotlin变量的相关知识。
 &#8195;&#8195;在进入今天的主题之前，在上一篇文章，我已经解释了如何在Android Studio中配置Kotlin开发环境，如果对此你还有疑虑，在学习今天的知识前，请先阅读上一篇文章。
