@@ -5,7 +5,7 @@ tags:
     - Kotlin
     - Android
 categories:
-    - IT
+    - Tech
 ---
 &#8195;&#8195;如果你之前了解过Kotlin，认为它是一门很强大的语言，那么你应该尝试去学习和使用它，这就是你来到这里的原因。这篇文章，我们将学习如何配置Android Studio下的Kotlin开发环境。
 &#8195;&#8195;启动Android Studio，新建一个项目工程，如下图如示
