@@ -2,7 +2,9 @@
 title: OrangePi-PCH3安卓源码编译
 tags: Android
 categories: Tech
+date: 2018-01-07 15:09:12
 ---
+
 #### 一、源码下载
 [官方源码][1]
 下载的源码文件是分块的压缩包，需要合并再解压
