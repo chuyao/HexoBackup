@@ -4,7 +4,7 @@ date: 2017-07-11 14:02:57
 tags:
     - Node.js
 categories:
-    - IT
+    - Tech
 ---
 先来看个[官方Hello World](https://nodejs.org/en/about/)，几行代码即可搭建一个服务器。
 

@@ -5,7 +5,7 @@ tags:
     - Interview
     - Android
 categories:
-    - IT
+    - Tech
 ---
 转载自SegmentFault [我自己的文章][1]
 

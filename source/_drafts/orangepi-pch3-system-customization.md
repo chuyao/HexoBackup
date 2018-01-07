@@ -1,7 +1,7 @@
 ---
 title: OrangePi-PCH3安卓系统定制
 tags: Android
-categories: IT
+categories: Tech
 ---
 #### 一、USB调试开放
 1、修改USB0配置 /lichee/tools/pack/chips/sun8iw7p1/configs/dolphin-p1/sys_config.fex
