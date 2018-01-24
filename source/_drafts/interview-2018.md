@@ -21,4 +21,4 @@ categories: Tech
 - QQ通讯，双方建立连接的原理及方式
 - ThreadLocal
 - MPAndroidChart是基于View还是SurfaceView
-- 
+- Java动态代理
