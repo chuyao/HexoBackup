@@ -79,6 +79,7 @@ date: 2018-01-12 14:42:03
 
 # 作品
 - [公牛炒股](http://app.mi.com/details?id=com.imfclub.stock)，目前已停止服务
+- [小叶收银](https://www.xiaoyeyun.com/#/index)
 
 ## 技术文章
 - [Kotlin基础教程第四章：Kotlin类 (Android)](https://chuyao.github.io/2017/08/18/kotlin-android-tutorial-4/)
